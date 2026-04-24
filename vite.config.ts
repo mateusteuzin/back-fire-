@@ -11,4 +11,7 @@ export default defineConfig({
   tanstackStart: {
     ssr: false,
   },
+  vite: {
+    base: "./",
+  },
 });
