@@ -1,5 +1,5 @@
 import { Instagram, Mail } from "lucide-react";
-import logo from "@/assets/backfire-logo.png";
+import logo from "@/assets/footer-logo.png";
 
 export function Footer() {
   return (
