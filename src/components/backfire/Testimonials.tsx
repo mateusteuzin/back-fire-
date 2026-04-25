@@ -1,26 +1,26 @@
 import { Quote, Star } from "lucide-react";
-import bruno from "@/assets/testimonial-bruno.jpg";
-import ana from "@/assets/testimonial-ana.jpg";
-import debora from "@/assets/testimonial-debora.jpg";
+import cliente1 from "@/assets/cliente1.jpg";
+import cliente2 from "@/assets/cliente2.jpg";
+import cliente3 from "@/assets/cliente3.jpg";
 
 const testimonials = [
   {
-    text: "Excelente profissional! Criou uma landing page que aumentou minhas conversões.",
-    name: "Bruno",
-    role: "Empreendedor",
-    img: bruno,
+    text: "O trabalho da equipe superou minhas expectativas. Nossa plataforma de vendas triplicou de conversão no primeiro mês graças ao design rápido e muito intuitivo!",
+    name: "Lucas",
+    role: "Dono de E-commerce",
+    img: cliente1,
   },
   {
-    text: "O site ficou moderno e trouxe mais credibilidade para minha empresa.",
-    name: "Ana",
-    role: "Empresária",
-    img: ana,
+    text: "Como advogado, eu precisava de um site que transmitisse muita seriedade e confiança. O resultado final ficou extremamente profissional e me trouxe excelentes contatos.",
+    name: "Roberto",
+    role: "Advogado Associado",
+    img: cliente2,
   },
   {
-    text: "Meu portfólio ficou incrível, agora consigo mais clientes.",
-    name: "Débora",
-    role: "RH",
-    img: debora,
+    text: "Vocês transformaram a presença digital da minha clínica. Hoje, minhas pacientes elogiam a facilidade e a beleza do site toda vez que vão agendar um horário.",
+    name: "Camila",
+    role: "Dona de Clínica de Estética",
+    img: cliente3,
   },
 ];
 
