@@ -1,7 +1,7 @@
 import { Quote, Star } from "lucide-react";
-import cliente1 from "@/assets/cliente1.jpg";
-import cliente2 from "@/assets/cliente2.jpg";
-import cliente3 from "@/assets/cliente3.jpg";
+import cliente1 from "@/assets/cliente1.jfif";
+import cliente2 from "@/assets/cliente2.jfif";
+import cliente3 from "@/assets/cliente3.jfif";
 
 const testimonials = [
   {
