@@ -23,11 +23,10 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 animate-fade-up transition-smooth ${
-        scrolled
+      className={`fixed top-0 inset-x-0 z-50 animate-fade-up transition-smooth ${scrolled
           ? "bg-[#0F0F10]/90 backdrop-blur-xl border-b border-border/50 shadow-[0_4px_30px_rgba(0,0,0,0.5)]"
           : "bg-[#0F0F10]/70 backdrop-blur-md border-b border-transparent"
-      }`}
+        }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
@@ -63,9 +62,9 @@ export function Header() {
             </a>
           ))}
           <Button variant="hero" size="default" asChild>
-            <a 
-              href="https://wa.me/558893203616?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." 
-              target="_blank" 
+            <a
+              href="https://wa.me/5569999627328?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+              target="_blank"
               rel="noreferrer"
             >
               Fale Conosco
@@ -87,9 +86,8 @@ export function Header() {
 
       {/* Mobile menu */}
       <div
-        className={`md:hidden overflow-hidden transition-[max-height,opacity] duration-500 ease-out ${
-          open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className={`md:hidden overflow-hidden transition-[max-height,opacity] duration-500 ease-out ${open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          }`}
       >
         <nav className="container mx-auto px-6 pb-6 pt-2 flex flex-col gap-1 border-t border-border/40">
           {navLinks.map((link) => (
@@ -103,10 +101,10 @@ export function Header() {
             </a>
           ))}
           <Button variant="hero" size="lg" asChild className="mt-3">
-            <a 
-              href="https://wa.me/558893203616?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." 
-              target="_blank" 
-              rel="noreferrer" 
+            <a
+              href="https://wa.me/5569999627328?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+              target="_blank"
+              rel="noreferrer"
               onClick={() => setOpen(false)}
             >
               Fale Conosco

@@ -51,7 +51,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Button variant="hero" size="xl" asChild>
               <a 
-                href="https://wa.me/558893203616?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." 
+                href="https://wa.me/5569999627328?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." 
                 target="_blank" 
                 rel="noreferrer"
               >

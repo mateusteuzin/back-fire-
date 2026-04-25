@@ -3,7 +3,7 @@ import { WhatsAppIcon } from "./WhatsAppIcon";
 export function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/558893203616?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+      href="https://wa.me/5569999627328?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
       target="_blank"
       rel="noreferrer"
       className="fixed bottom-6 right-6 z-[60] flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-[0_10px_30px_rgba(37,211,102,0.4)] transition-bounce hover:scale-110 active:scale-95 group"
