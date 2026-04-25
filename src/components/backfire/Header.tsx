@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/backfire-logo.png";
+import logo from "@/assets/footer-logo.png";
 
 const navLinks = [
   { label: "Início", href: "#top" },
@@ -46,7 +46,7 @@ export function Header() {
               alt="BackFire"
               width={1974}
               height={797}
-              className="relative h-10 md:h-12 w-auto object-contain transition-bounce group-hover:scale-105"
+              className="relative h-20 md:h-24 w-auto object-contain transition-bounce group-hover:scale-105"
             />
           </div>
         </a>
