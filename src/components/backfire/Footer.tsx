@@ -20,9 +20,9 @@ export function Footer() {
           © {new Date().getFullYear()} BackFire. Todos os direitos reservados.
         </p>
         <div className="flex items-center gap-4 text-muted-foreground">
-          <a href="#" aria-label="Instagram" className="hover:text-primary transition-smooth"><Instagram className="w-5 h-5" /></a>
+          <a href="https://www.instagram.com/backfireoficial/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-primary transition-smooth"><Instagram className="w-5 h-5" /></a>
 
-          <a href="#" aria-label="Email" className="hover:text-primary transition-smooth"><Mail className="w-5 h-5" /></a>
+          <a href="mailto:suporte.backfire@gmail.com" aria-label="Email" className="hover:text-primary transition-smooth"><Mail className="w-5 h-5" /></a>
         </div>
       </div>
     </footer>
